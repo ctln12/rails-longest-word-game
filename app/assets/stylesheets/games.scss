@@ -12,6 +12,7 @@ body {
 
 .flex {
   display: flex;
+  margin-bottom: 20px;
 }
 
 div.letter {
@@ -22,4 +23,29 @@ div.letter {
   padding-left: 13px;
   line-height: 2.5;
   background-color: #9b7fb3;
+}
+
+form {
+  display: table;
+}
+
+label {
+  display: table-row;
+}
+
+#longest-word {
+  margin-top: 15px;
+  border: solid 1px gray;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  height: 30px;
+  width: 440px;
+}
+
+#play {
+  border: solid 1px gray;
+  border-radius: 0 5px 5px 0;
+  height: 34px;
+  width: 55px;
+  font-weight: bold;
 }

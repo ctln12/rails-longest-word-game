@@ -17,4 +17,10 @@
     <div class="letter"><%= @letters[8] %></div>
     <div class="letter"><%= @letters[9] %></div>
   </div>
+
+  <form action="/score" method="POST">
+    <label for="longest-word">What is the longest word you can find?</label>
+    <input type="text" id="longest-word">
+    <input type="submit" value="Play" id="play">
+  </form>
 </div>
