@@ -1,2 +1,20 @@
-<h1>Games#new</h1>
-<p>Find me in app/views/games/new.html.erb</p>
+<div class="container">
+  <h1>New game</h1>
+
+  <% 10.times do %>
+    <% @letters << ('A'..'Z').to_a[rand(26)] %>
+  <% end %>
+
+  <div class="flex">
+    <div class="letter"><%= @letters[0] %></div>
+    <div class="letter"><%= @letters[1] %></div>
+    <div class="letter"><%= @letters[2] %></div>
+    <div class="letter"><%= @letters[3] %></div>
+    <div class="letter"><%= @letters[4] %></div>
+    <div class="letter"><%= @letters[5] %></div>
+    <div class="letter"><%= @letters[6] %></div>
+    <div class="letter"><%= @letters[7] %></div>
+    <div class="letter"><%= @letters[8] %></div>
+    <div class="letter"><%= @letters[9] %></div>
+  </div>
+</div>
