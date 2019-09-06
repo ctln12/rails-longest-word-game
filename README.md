@@ -9,8 +9,8 @@ Exercise from Le Wagon Full Stack Challenges
 Implement a simplified version of a game where:
 
 * You are given a random set of letters
-* You have to enter the longest english word you can find using only letters in the grid
-* After typing your answer, you get your score combined with the time you took, and eventually an error message if you failed.
+* You have to enter the longest english word you can find using only letters in the grid (http://localhost:3000/new)
+* After typing your answer, you get your score combined with the time you took, and eventually an error message if you failed
 
 ### Constraints:
 
